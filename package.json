@@ -18,7 +18,7 @@
         "url": "https://github.com/isaacerd/react-native-fast-image.git"
     },
     "license": "(MIT AND Apache-2.0)",
-    "author": "Dylan Vann <isaacerd1@gmail.com> (https://isaacerd.com)",
+    "author": "Isaac Ramirez <isaacerd1@gmail.com> (https://isaacerd.com)",
     "main": "dist/index.cjs.js",
     "module": "dist/index.js",
     "typings": "dist/index.d.ts",
