@@ -73,7 +73,6 @@
 
 - (UIImage*) makeImage: (UIImage*)image withTint: (UIColor*)color {
     UIImage* newImage = [image imageWithRenderingMode: UIImageRenderingModeAlwaysTemplate];
-    if (image.size.width <= 0 || image.size.height <= 0) { return nil; }
     UIGraphicsBeginImageContextWithOptions(image.size, NO, newImage.scale);
     [color set];
     [newImage drawInRect: CGRectMake(0, 0, image.size.width, newImage.size.height)];
